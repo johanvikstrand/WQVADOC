@@ -15,7 +15,6 @@ Here you will find the following support objects.
 | [Name](Name.md)                                               | Displays the name of an object                                                                         |
 | [Static Value](Static_Value.md)                               | Displays Value for a predetermined tag                                                                 |
 | [Static Value Desc](Static_Value_Desc.md)                     | Displays value and description for a predetermined tag                                                 |
-| [Status](Status.md)                                           | Inlcudes both a Name support object and an Alarm Status object                                         |
 | [Status Indicator](Status_Indicator.md)                       | Displays a boolean value as an on/off-lamp indicator                                                   |
 | [Status Indicator Desc](Status_Indicator_Desc.md)             | Displays a boolean value and description as an on/off-lamp indicator                                   |
 | [Toggle](Toggle.md)                                           | Allows user to Toggle a boolean value in the workview                                                  |

@@ -63,4 +63,4 @@ AS01_Motor_MV
 
 See below:
 
-![Modbus](Pics/MODBUS.png)
+![Modbus](pics/MODBUS.png)
