@@ -1,0 +1,2 @@
+## Alarm Status
+Alarm Status is used to indicate a sum alarm for a certain object. It does this with functions [scSuffix.warning()]() and [scSuffix.alarm()]() in script library [scSuffix](). If an alarm is active a red circle will show. If a warning is active a yellow rombulus will show. What constitutes as an alarm or a warning depends on what group the tag belongs to in the json file, [suffix.json]().
