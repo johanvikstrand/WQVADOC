@@ -1,4 +1,4 @@
-Home1
+Home
 ============
 
 Welcome to the WideQuick Water & Wastewater application documentation. 
