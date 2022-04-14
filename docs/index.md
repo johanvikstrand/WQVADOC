@@ -7,9 +7,8 @@ Here one can expect to find documentation regarding the following:
 
  - [Smart Objects](Object_Library/Smart_Objects/Support_Objects/index.md)
  - [The Object Library](Object_Library/index.md)
--  [Workviews and Navigation](Workviews/index.md)
+ -  [Workviews and Navigation](Workviews/index.md)
  - [Scripts](Scripts/index.md)
- - [Database](Testing/index.md) 
  - [Tag structure](Tag_Structure/index.md)
  - [Suffixes](Suffixes/index.md)
 
