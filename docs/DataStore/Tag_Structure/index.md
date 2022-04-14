@@ -8,7 +8,7 @@ The setup is different for OPC and MODBUS but the tagstructure is the same. Foll
     - Device
         - System
             - Object
-                - Suffix
+                - [Suffix](Suffixes.md)
 
 The names of these is arbitrary and they can be named whatever the user desires. These will later be used to connect OPC tags to the different objects placed in workviews.
 
