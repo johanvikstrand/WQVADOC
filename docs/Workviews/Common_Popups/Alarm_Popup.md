@@ -1,4 +1,4 @@
-The Alarm Popup pages shows all [user defined alarms](../Alarms/index.md) specific to the object. The page shows which alarms are active/inactive and which alarms have been acknowledged. The page also allows the user to both acknowledge and block alarms. 
+The Alarm Popup pages shows all [user defined alarms](/docs/DataStore/Alarms/index.md) specific to the object. The page shows which alarms are active/inactive and which alarms have been acknowledged. The page also allows the user to both acknowledge and block alarms. 
 
 <figure>
     <img src="../pics/Alarm.png"

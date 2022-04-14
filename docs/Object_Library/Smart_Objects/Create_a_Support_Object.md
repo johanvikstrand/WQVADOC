@@ -15,4 +15,4 @@ There are functions available in the script library that today is used by existi
 - [scObjectAnimation.rotate()]()
 - [scObjectAnimation.alarmColor()]()
 
-More functions that could be useful can be found in the [Script](../../Scripts/index.md) part of this documentation.
+More functions that could be useful can be found in the [Script](/docs/Scripts/index.md) part of this documentation.

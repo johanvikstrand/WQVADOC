@@ -17,7 +17,7 @@ System_Object_UserDefinedName
 
 BILD
 
-The newly created alarm will then be visible in both the general alarm page(Länk?) and the [Alarm Popup](../Common_Popups/Alarm_Popup.md) for the specific object. In this case Skane.Kallby.AS01_Motor. See picture below:
+The newly created alarm will then be visible in both the general alarm page(Länk?) and the [Alarm Popup](/docs/Workviews/Common_Popups/Alarm_Popup.md) for the specific object. In this case Skane.Kallby.AS01_Motor. See picture below:
 
 <figure>
     <img src="pics/alarmpage.png" 
@@ -29,7 +29,7 @@ The newly created alarm will then be visible in both the general alarm page(Län
 
 
 ## Alarm tags
-Alarm tags are all tags with a suffix belonging to the alarm or warning group in suffix.JSON. See exampel below. Once this tag turns high the icon for the object connected to this tag will turn yellow/red depending on if it is an alarm or a warning. Furthermore if the smart-object contains an [Alarm Status](../Smart_Objects/Support_Objects/Alarm_Status.md) the alarms status indicator will be visible.
+Alarm tags are all tags with a suffix belonging to the alarm or warning group in suffix.JSON. See exampel below. Once this tag turns high the icon for the object connected to this tag will turn yellow/red depending on if it is an alarm or a warning. Furthermore if the smart-object contains an [Alarm Status](/docs/Object_Library/Smart_Objects/Support_Objects/Alarm_Status.md) the alarms status indicator will be visible.
  
 **Example:**
 <figure>

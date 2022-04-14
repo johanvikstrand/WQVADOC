@@ -1,14 +1,52 @@
-Git
-===================
-As this thesis project aims to be embryo of Kentima´s Water and Wastewater Treatment application in the future it is important to have clear guidelines of how development enfolds as the number of developers and users increase. The following is a number of ways that we intend to maintain our codebase.
+# Documentation
 
-The Git will as of right now be hosted on GitHub
+## `try`
 
-**Version Handling** will eventually be handled by Kentima's developer server.
+## `smartPopup = function (obj)`
 
-## Git Workflow
- The workflow chosen is Feature Branch Workflow. This means every added feature, in this projects case smart objects or work-views for the SCADA, is developed in a separate branch. This makes it so that multiple developers can work simultaneously without disturbing the main codebase, maintaining a main branch without broken code. Another advantage is the ease of making discussion around a feature by pull requests. <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow" target="_blank">Read more here!</a>
+Constructor for smartPopup object - smartPopup handles suffix and privilege requirements and and contains function to build the popup menu
 
-## Terminal shorthands
+ * **Parameters:** `obj` — `Object` — - object clicked in workview that opens popup
 
-##
+## `this.generateTabs = function (suffix)`
+
+generateTabs() - Generates what tabs are available for this particular object
+
+ * **Parameters:** `suffix` — `Object` — - Suffixes available in project
+ * **Returns:** `Array` — returnList - Tabs available to the smartpopup object
+
+## `this.getTabs = function ()`
+
+Gets the tabs for *This* smartPopup object
+
+ * **Returns:** `Array` — tabs - tabs for *this* smartPopup
+
+## `this.updateProperties = function ()`
+
+Updates the properties, suffix and tabs, for *This* smartPopup object and saves to scLibrary array
+
+## `this.getSuffix = function ()`
+
+Gets the available suffixes for *This* smartPopup object to show a tab
+
+ * **Returns:** `Object` — suffix - suffixes available suffixes for *This* smartPopup object
+
+## `this.getObj = function ()`
+
+Gets the object that opened *This* smartPopup object
+
+ * **Returns:** `Object` — obj - object in workview to open popup
+
+## `this.hasPriv = function (priv)`
+
+WRITE THIS COMMENT
+
+ * **Parameters:** `priv` — `*` — 
+ * **Returns:** `` — 
+
+## `this.build = function (view)`
+
+Populates the workview with appropriate buttons for the popup menu
+
+ * **Parameters:** `view` — `Workview` — - View represents the popup window and owns a couple of properties to pass on a reference as we change inbetween different popup views
+
