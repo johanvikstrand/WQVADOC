@@ -5,7 +5,7 @@ scDomParser
 
 Constructor for parsing an XML-file
 
- * **Parameters:** `String` — xmlFilePath - The file path to the XML file.
+ * **Parameters:** `xmlFilePath` — `String`  The file path to the XML file.
 
 ## `this.xmlToJs = function (xml)`
 

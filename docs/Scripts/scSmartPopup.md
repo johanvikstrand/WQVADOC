@@ -5,11 +5,11 @@ scSmartPopup
 
 Constructor for smartPopup object - smartPopup handles suffix and privilege requirements and and contains function to build the popup menu
 
- * **Parameters:** `obj` — `Object` — Object clicked in workview that opens popup
+ * **Parameters:** `obj` — `Object` — object clicked in workview that opens popup
 
 ## `this.generateTabs = function (suffix)`
 
-generateTabs() Generates what tabs are available for this particular object
+generateTabs() - Generates what tabs are available for this particular object
 
  * **Parameters:** `suffix` — `Object` — Suffixes available in project
  * **Returns:** `Array` — returnList  Tabs available to the smartpopup object
@@ -18,7 +18,7 @@ generateTabs() Generates what tabs are available for this particular object
 
 Gets the tabs for *This* smartPopup object
 
- * **Returns:** `Array` — tabs  tabs for *this* smartPopup
+ * **Returns:** `Array` — tabs for *this* smartPopup
 
 ## `this.updateProperties = function ()`
 
@@ -28,20 +28,20 @@ Updates the properties, suffix and tabs, for *This* smartPopup object and saves 
 
 Gets the available suffixes for *This* smartPopup object to show a tab
 
- * **Returns:** `Object` — suffix  suffixes available suffixes for *This* smartPopup object
+ * **Returns:** `Object` —  suffixes available suffixes for *This* smartPopup object
 
 ## `this.getObj = function ()`
 
 Gets the object that opened *This* smartPopup object
 
- * **Returns:** `Object` — obj  object in workview to open popup
+ * **Returns:** `Object` —  object in workview to open popup
 
 ## `this.hasPriv = function (priv)`
 
-Checks if the current user meets the privileges for this object
+Returns a boolean value for if the current user has the input privilege
 
- * **Parameters:** `priv` — `*` — Privilege to test
- * **Returns:** `*` — True/false depending on users privilege
+ * **Parameters:** `priv` — `String` — The privilege that should be tested against the current users privileges
+ * **Returns:** `Boolean` — True if the user has the privilege, false otherwise
 
 ## `this.build = function (view)`
 
