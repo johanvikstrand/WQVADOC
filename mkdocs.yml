@@ -37,6 +37,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.superfences
   - admonition
+  - toc:
+      permalink: true
 
 copyright: Copyright &copy 2000-2022 Kentima AB
 
