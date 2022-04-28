@@ -2,7 +2,7 @@ The trend view works similarly to the [history popup](../Common_Popups/History.m
 
 
 <figure>
-    <img src="../pics/tab.png" 
+    <img src="../pics/Trend.png" 
          alt="tab">
     <figcaption>The trend view for Skane.Kallby.AS01_Pump06.</figcaption>
 </figure>
