@@ -1,5 +1,10 @@
 Alarms
 =====
+
+What is an alarm?
+
+>An alarm is audible and/or visible means of indicating to the operator an equipment malfunction, process deviation, or abnormal condition **requiring a response**
+
 There are two different types of alarms in WideQuick VA. One of them is user defined alarms and the other is alarm tags. The difference between the two will be explained below. 
 
 **NOTE:** For the following examples we will use: Skane.Kallby.AS01_Motor as an example.
